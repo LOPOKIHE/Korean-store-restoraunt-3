@@ -27,21 +27,16 @@ nav a:hover {
 
 .about {
     top: 20px;
-    background-color: #4CAF50;
+    background-color: darkblue;
 }
 
 .workers {
     top: 80px;
-    background-color: #2196F3;
+    background-color: brown;
 }
 
 .menu {
     top: 140px;
-    background-color: #555;
-}
-
-.contact {
-    top: 230px;
     background-color: #555;
 }
 
@@ -70,8 +65,6 @@ footer p {
 }
 
 img {
-    margin-left: 90%;
     display: flex;
-    position: fixed ;
-    background-color: darkslategrey;
+    position: relative;
 }
