@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: darkslategray;
+    background-image: linear-gradient(darkslategrey, grey);
 }
 
 h1 {
@@ -27,23 +27,23 @@ nav a:hover {
 
 .about {
     top: 20px;
-    background-color: darkblue;
+    background-image: linear-gradient(to right, navy, blue);
 }
 
 .workers {
     top: 80px;
-    background-color: brown;
+    background-image: linear-gradient(to right, darkred, brown);
 }
 
 .menu {
     top: 140px;
-    background-color: #555;
+    background-image: linear-gradient(to right, #555, grey);
 }
 
 p {
     font-size: 30px;
     margin-left: 120px;
-    color: darkgoldenrod;
+    color: grey;
 }
 
 li {
@@ -61,7 +61,7 @@ ul {
 footer p {
     font-size: 30px;
     margin-left: 120px;
-    color: darkorchid;
+    color: darkslate;
 }
 
 img {
