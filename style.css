@@ -104,6 +104,20 @@ footer a {
     text-decoration: none;
 }
 
+.letters {
+    font-size: 25px;
+}
+
+
+.BigLetters {
+    font-size: 40px;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
 .socials img {
     width: 40px;
     height: 40px;
