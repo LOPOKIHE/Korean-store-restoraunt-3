@@ -1,12 +1,16 @@
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(darkslategrey, grey);
+}
+
+body {
+    font-family: sans-serif;
+    background-image:  linear-gradient(black, black, #3F3D3F);
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: brown;
+    color: red;
 }
 
 a {
@@ -27,7 +31,8 @@ nav a:hover {
 
 .about {
     top: 20px;
-    background-image: linear-gradient(to right, navy, blue);
+    color: black;
+    background-color: white;
 }
 
 .workers {
@@ -37,25 +42,25 @@ nav a:hover {
 
 .menu {
     top: 140px;
-    background-image: linear-gradient(to right, #555, grey);
+    background-image: linear-gradient(to right, black, #43433B);
 }
 
 p {
     font-size: 30px;
     margin-left: 120px;
-    color: grey;
+    color: white;
 }
 
 li {
     font-size: 25px;
     margin-left: 80px;
-    color: darkblue;
+    color: white;
 }
 
 ul {
     font-size: 35px;
     margin-left: 45px;
-    color: brown;
+    color: red;
 }
 
 footer p {
@@ -64,7 +69,71 @@ footer p {
     color: darkslate;
 }
 
+header img {
+    display: flex;
+    position: relative;
+    Left: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+header img:hover {
+    display: flex;
+    position: relative;
+    Left: 80%;
+    width: 200px;
+    height: 200px;
+}
+
 img {
     display: flex;
     position: relative;
+}
+
+img:hover {
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+
+iframe {
+    display: flex;
+    top: 10px;
+    width: 700px;
+    height: 400px;
+}
+
+.instagram {
+    display: flex;
+    position: relative;
+    margin-left: 700px;
+    width: 50px;
+    height: 50px;
+}
+
+.instagram:hover {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+
+.Set {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.Set:hover {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s ease-out;
 }
